@@ -1,0 +1,15 @@
+@import url('./Glyphter.css');
+
+:root {
+    --main-clr: #fff;
+    --submain-clr: #333333;
+    --shapes-clr: #C4C4C4;
+}
+
+* {
+    font-family: inherit;
+}
+
+body {
+    font-family: 'Monserrat', sans-serif;
+}
