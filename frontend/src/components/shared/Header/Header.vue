@@ -1,5 +1,5 @@
 <template>
-    <section class="banner">
+    <section class="banner h-svh min-h-[376px] mb-[80px]">
         <header class="header py-11 absolute top-0 left-0 z-10 w-full">
             <div class="container 2xl mx-auto px-3.5">
                 <nav class="header__nav flex justify-between gap-4 items-center">
@@ -26,10 +26,8 @@
                     </ul>
                     <div class="header__nav-links flex items-center gap-9">
                         <router-link to="/search"
-                            class="header__nav-link lg:flex hidden text-2xl items-center justify-center">
-                            <span class="flex items-center justify-center">
-                                <i class="icon-search text-2xl"></i>
-                            </span>
+                            class="header__nav-link w-6 lg:flex hidden text-2xl items-center justify-center">
+                            <img class="w-full h-full object-cover" src="@assets/icons/search.svg" alt="search icon">
                         </router-link>
                         <router-link to="/profile" class="header__nav-link w-6 lg:flex hidden items-center justify-center">
                             <img class="w-full h-full object-cover" src="@assets/icons/user.svg" alt="">
@@ -68,7 +66,7 @@
             </Sidebar>
         </header>
 
-        <div class="banner__wrap w-full h-svh max-h-[900px] min-h-[376px] relative">
+        <div class="banner__wrap w-full h-full relative">
             <img src="@assets/imgs/poster.webp" alt="" class="select-none absolute w-full h-full object-cover">
             <div class="px-4 h-full flex flex-col justify-center container 2xl mx-auto">
                 <div class="banner__desc mb-4 relative z-[6] flex flex-col items-start max-w-[538px] w-full">

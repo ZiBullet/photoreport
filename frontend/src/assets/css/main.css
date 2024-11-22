@@ -1,4 +1,3 @@
-@import url('./Glyphter.css');
 
 :root {
     --main-clr: #fff;
@@ -13,4 +12,8 @@
 
 body {
     font-family: 'Monserrat', sans-serif;
+}
+
+a {
+    font-size: inherit;
 }
